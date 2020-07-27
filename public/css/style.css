@@ -1,0 +1,21 @@
+h1 {
+    color: lightseagreen;
+    text-align: center;
+
+    margin: 20px;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    background-color: grey;
+    padding: 30px;
+}
+
+li {
+    border: 1px solid;
+    list-style-type: none;
+}

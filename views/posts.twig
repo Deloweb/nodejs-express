@@ -1,0 +1,17 @@
+{% extends "base.twig" %}
+
+{% block body %}
+    <h1>Page de tous les articles</h1>
+    <ul class="container">
+    {% for post in posts %}
+        <li class="mt-4 mb-4 "><p><strong>title :</strong> 
+            {{ post.title }}
+        </p>
+            <p><strong>body :</strong> 
+                {{ post.body }}
+            </p>
+            <a href='/blog/{{post.id}}' class="button">Afficher l'article</a>
+            </li>
+    {% endfor %}
+    </ul>
+{% endblock %}
